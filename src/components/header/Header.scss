@@ -1,0 +1,107 @@
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  z-index: 1000;
+  background: rgb(255, 255, 255);
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 100%;
+
+    .menu {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      button {
+        background: none;
+        border: none;
+        cursor: pointer;
+        padding: 5px 10px;
+        display: flex;
+        align-items: center;
+        &:hover {
+          background: rgba(0, 0, 0, 0.05);
+          border-radius: 12px;
+        }
+        .menu-toggle {
+          font-size: 25px;
+        }
+      }
+      a {
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        img {
+          width: 90px;
+        }
+      }
+    }
+    .search-father {
+      display: flex;
+      align-items: center;
+
+      .search {
+        position: relative;
+        input {
+          width: 602px;
+          height: 40px;
+          border-radius: 2px;
+          box-shadow: 1px 1px 2px 0px rgba(211, 211, 211, 0.25) inset;
+          border: 1px solid rgba(0, 0, 0, 0.22);
+          font-family: "Montserrat";
+          padding: 0 12px;
+          outline: none;
+          @media (max-width: 970px) {
+            width: 400px;
+          }
+          @media (max-width: 780px) {
+            width: 300px;
+          }
+          @media (max-width: 677px) {
+            width: 200px;
+          }
+        }
+        .search-icon {
+          position: absolute;
+          top: 50%;
+          transform: translateY(-50%);
+          right: 10px;
+          font-size: 20px;
+          cursor: pointer;
+        }
+      }
+      button {
+        cursor: pointer;
+        background: none;
+        border: none;
+        padding: 10px 15px;
+        display: flex;
+        align-items: center;
+        background: #a5a5a542;
+        border-radius: 0 15px 15px 0;
+        &:hover {
+          background: rgba(0, 0, 0, 0.178);
+          border-radius: 0 12px 12px 0;
+        }
+        .microphone-icon {
+          font-size: 20px;
+        }
+      }
+    }
+    .end-father {
+      display: flex;
+      align-items: center;
+      gap: 24px;
+      .video-icon,
+      .notification,
+      .user-icon {
+        font-size: 24px;
+        cursor: pointer;
+      }
+    }
+  }
+}
