@@ -4,7 +4,8 @@ import { MdExplore, MdOutlineWatchLater } from "react-icons/md";
 import { GoHistory } from "react-icons/go";
 import { RxAvatar } from "react-icons/rx";
 
-import "./SiderBar.scss";
+import "./style/SiderBar.scss";
+
 const SiderBarPage = () => {
   // sider-bar-one
   const sideBar = [
