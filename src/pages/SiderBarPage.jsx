@@ -27,7 +27,7 @@ const SiderBarPage = () => {
     {
       id: 4,
       name: "Subscriptions",
-      icon: <img src="./public/icons/ytLibary.svg" alt="ytLibary" />,
+      icon: <img src="/public/icons/ytLibary.svg" alt="ytLibary" />,
     },
   ];
   // side-bar-two
@@ -35,7 +35,7 @@ const SiderBarPage = () => {
     {
       id: 1,
       name: "Libary",
-      icon: <img src="./public/icons/libary.svg" alt="libary" />,
+      icon: <img src="/public/icons/libary.svg" alt="libary" />,
     },
     {
       id: 2,
@@ -56,7 +56,7 @@ const SiderBarPage = () => {
     {
       id: 5,
       name: "Popular",
-      icon: <img src="./public/icons/pop.svg" alt="pop" />,
+      icon: <img src="/public/icons/pop.svg" alt="pop" />,
     },
   ];
   // users
@@ -64,22 +64,22 @@ const SiderBarPage = () => {
     {
       id: 1,
       name: "User 1",
-      avatar: "./public/icons/avatar.svg",
+      avatar: "/public/icons/avatar.svg",
     },
     {
       id: 2,
       name: "User 2",
-      avatar: "./public/icons/avatar.svg",
+      avatar: "/public/icons/avatar.svg",
     },
     {
       id: 3,
       name: "User 3",
-      avatar: "./public/icons/avatar.svg",
+      avatar: "/public/icons/avatar.svg",
     },
     {
       id: 4,
       name: "User 4",
-      avatar: "./public/icons/avatar.svg",
+      avatar: "/public/icons/avatar.svg",
     },
   ];
   return (
